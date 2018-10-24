@@ -10,7 +10,7 @@ h4 {
 }
 
 h1 {
-    font-family: 'OverpassMono-Regular', monospace;
+    font-family: 'VT323-Regular', monospace;
     color: fuchsia;
 }
 
@@ -35,7 +35,7 @@ ol li {
 }
 
 h1 {
-    font-size: 7vmax;
+    font-size: 4vmax;
 }
 
 div {
