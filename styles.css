@@ -12,6 +12,11 @@ div {
 
 #content {
     margin: 20em;
+    max-width: 75vw;
+}
+
+#code {
+    
 }
 
 /* HIGHLIGHT.JS STYLE */

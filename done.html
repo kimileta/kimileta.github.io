@@ -18,15 +18,15 @@
     <ul>
         <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add
             <pre><code>
-                #content-desktop {display: block;}
-                #content-mobile {display: none;}
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 
-                @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-                #content-desktop {display: none;}
-                #content-mobile {display: block;}
+#content-desktop {display: none;}
+#content-mobile {display: block;}
 
-                }</code></pre>to CSS, wrap embed in content-desktop div.</li>
+}</code></pre>to CSS, wrap embed in content-desktop div.</li>
         <li>Learned to properly style pseudo-classes of specific link classes. For example, to style the hover state of all links with a class of "new", write selector as:
             <br>
             <pre><code>a.new:hover {}</code></pre>
