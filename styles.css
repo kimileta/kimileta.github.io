@@ -5,12 +5,12 @@ body {
 h2,
 h3,
 h4 {
-    font-family: 'VT323-Regular', monospace;
+    font-family: 'VT323', monospace;
     color: fuchsia;
 }
 
 h1 {
-    font-family: 'VT323-Regular', monospace;
+    font-family: 'Overpass Mono', monospace;
     color: fuchsia;
 }
 
@@ -44,7 +44,7 @@ div {
 
 
 #content {
-    width: 85vw;
+    width: 95vw;
 }
 
 /* Blink animation */
