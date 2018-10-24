@@ -6,7 +6,7 @@
 	<body>
     <h2>10.24.18</h2>
     <ul>
-      <li>Problem: Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. Solution: Add <code>#content-desktop {display: block;}
+	    <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add <code>#content-desktop {display: block;}
 #content-mobile {display: none;}
 
 @media screen and (max-width: 768px) {
@@ -14,6 +14,13 @@
 #content-desktop {display: none;}
 #content-mobile {display: block;}
 
-}</code>to CSS, wrap embed in <code><div id="content-desktop"></div></code>
+		    }</code>to CSS, wrap embed in content-desktop div.</li>
+	    <li>Learned to properly style pseudo-classes of specific link classes. For example, to style the hover state of all links with a class of "new", write selector as:
+		    <br>
+		    <code>a.new:hover {}</code>
+		    <br>
+		    To select the hover state of all links with a class of "new" with a parent class of "main":
+		    <br>
+		    <code>.main a.new:hover {}</code></li>
 	</body>
 </html>
