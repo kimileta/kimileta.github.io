@@ -21,6 +21,12 @@ ol {
     color: cyan;
 }
 
+a {
+    font-family: 'IBM Plex Mono', monospace;
+    color: chartreuse;
+
+}
+
 ul li,
 ol li {
     margin: 0;
