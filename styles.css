@@ -32,11 +32,11 @@ div {
     display: block;
 }
 
-#content {
-    max-width: 85vw;
-}
+#content {}
 
-#code {}
+#code {
+    width: 85vw;
+}
 
 /* HIGHLIGHT.JS STYLE */
 
