@@ -2,6 +2,16 @@ body {
     background-color: black;
 }
 
+#title {
+    font-family: 'Fira Mono', monospace;
+    color: fuchsia;
+    font-size: 4vmax;
+}
+.title-white {
+    color: white;
+}
+
+h2,
 h3,
 h4 {
     font-family: 'VT323', monospace;
