@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>an@nsi: complete</title>
-		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|VT323" rel="stylesheet">
-    		<link href="/styles.css" rel="stylesheet">
-	</head>
-	<body>
-		<h1>AN@NSI: complete</h1>
+
+<head>
+    <title>an@nsi: complete</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|VT323" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>AN@NSI: complete</h1>
     <h2>10.24.18</h2>
     <ul>
-	    <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add <code>#content-desktop {display: block;}
-#content-mobile {display: none;}
+        <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add <code>#content-desktop {display: block;}
+                #content-mobile {display: none;}
 
-@media screen and (max-width: 768px) {
+                @media screen and (max-width: 768px) {
 
-#content-desktop {display: none;}
-#content-mobile {display: block;}
+                #content-desktop {display: none;}
+                #content-mobile {display: block;}
 
-		    }</code>to CSS, wrap embed in content-desktop div.</li>
-	    <li>Learned to properly style pseudo-classes of specific link classes. For example, to style the hover state of all links with a class of "new", write selector as:
-		    <br>
-		    <code>a.new:hover {}</code>
-		    <br>
-		    To select the hover state of all links with a class of "new" with a parent class of "main":
-		    <br>
-		    <code>.main a.new:hover {}</code></li>
-	    <li>Learned why/how to generate minified CSS. (Why = optimization, compression, faster load time. How = easy extension in Brackets.) Generates filename.min.ext.</li>
-		</ul>
-		<h3>Problems<h3>
-			<ul>
-				<li>Make this site less ugly.</li>
-				<li>Make org shop page direct to books & merch.</li>
-			</ul>
-	</body>
+                }</code>to CSS, wrap embed in content-desktop div.</li>
+        <li>Learned to properly style pseudo-classes of specific link classes. For example, to style the hover state of all links with a class of "new", write selector as:
+            <br>
+            <code>a.new:hover {}</code>
+            <br>
+            To select the hover state of all links with a class of "new" with a parent class of "main":
+            <br>
+            <code>.main a.new:hover {}</code></li>
+        <li>Learned why/how to generate minified CSS. (Why = optimization, compression, faster load time. How = easy extension in Brackets.) Generates filename.min.ext.</li>
+    </ul>
+    <h3>Problems<h3>
+            <ul>
+                <li>Make this site less ugly.</li>
+                <li>Make org shop page direct to books & merch.</li>
+            </ul>
+</body>
+
 </html>
