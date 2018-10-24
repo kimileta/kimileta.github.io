@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>an@nsi: complete</title>
+	</head>
+	<body>
+    <h2>10.24.18</h2>
+    <ul>
+      <li>Problem: Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. Solution: Add <code>#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}</code>to CSS, wrap embed in <code><div id="content-desktop"></div></code>
+	</body>
+</html>
