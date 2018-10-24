@@ -14,18 +14,18 @@ p,
 ul,
 ol {
     font-family: 'IBM Plex Mono', monospace;
-    color: fuchsia;
+    color: cyan;
 }
 
 ul li,
 ol li {
     margin: 0;
     padding-bottom: 1.5em;
-    color: fuchsia;
+    color: cyan;
 }
 
 h1 {
-    font-size: 15vmax;
+    font-size: 7vmax;
 }
 
 div {
