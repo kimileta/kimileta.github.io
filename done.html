@@ -3,9 +3,7 @@
 
 <head>
     <title>an@nsi: complete</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|VT323" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="/highlightjs/styles/default.css">
     <script src="/highlightjs/highlight.pack.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
@@ -17,7 +15,8 @@
     <h1>AN@NSI: complete</h1>
     <h2>10.24.18</h2>
     <ul>
-        <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add <pre><code>
+        <li><strong>Problem:</strong> Embedded Google Form dropdown displays fucked up on mobile, but removing the embedded form entirely poses an accessibility issue. <br><strong>Solution:</strong> Add
+            <pre><code>
                 #content-desktop {display: block;}
                 #content-mobile {display: none;}
 
@@ -33,7 +32,8 @@
             <br>
             To select the hover state of all links with a class of "new" with a parent class of "main":
             <br>
-            <pre><code>.main a.new:hover {}</code></pre></li>
+            <pre><code>.main a.new:hover {}</code></pre>
+        </li>
         <li>Learned why/how to generate minified CSS. (Why = optimization, compression, faster load time. How = easy extension in Brackets.) Generates filename.min.ext.</li>
     </ul>
     <h3>Problems<h3>
