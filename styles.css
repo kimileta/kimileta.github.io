@@ -6,6 +6,15 @@ p, ul, ol {
 font-family: 'IBM Plex Mono', monospace;
 }
 
+ul li, ol li {
+    margin: 0;
+    padding: 0 0 0 2em;
+}
+
+h1 {
+    font-size: 15vmax;
+}
+
 div {
     display: block;
 }
