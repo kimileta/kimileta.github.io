@@ -20,7 +20,7 @@ ol {
 ul li,
 ol li {
     margin: 0;
-    padding: 0 0 0 2em;
+    padding-bottom: 20px;
     color: fuchsia;
 }
 
