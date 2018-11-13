@@ -21,6 +21,7 @@ h4 {
 h1 {
     font-family: 'Fira Mono', monospace;
     color: fuchsia;
+    font-size: 4vmax;
 }
 
 h2 {
@@ -49,9 +50,6 @@ ol li {
     color: cyan;
 }
 
-h1 {
-    font-size: 4vmax;
-}
 
 div {
     display: block;
@@ -60,6 +58,20 @@ div {
 
 #content {
     width: 95vw;
+}
+
+/* Make my lil keyboard keys cute */
+
+kbd {
+  background-color: #e004b8;
+  border-radius: 2px;
+  border: 1px solid #820b6c;
+  box-shadow: 0 1px 1px #820b6c;
+  font-weight: 800;
+  padding: 2px 5px;
+  color: white;
+  white-space: nowrap;
+  font-size: 1em;
 }
 
 /* Blink animation */
