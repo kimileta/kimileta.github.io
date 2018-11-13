@@ -35,6 +35,39 @@
             </p>
         </div>
         <p><a href="/index.html">← back</a></p>
+        <h2>11.13.18</h2>
+        <ul>
+        <li>Spent exactly 2 hours fixing a bunch of Cafepress' bullshit within the constraints of how awful their site and shop editor are, getting to practice combinators, attribute selectors, coping with badly styled HTML tables, and the only acceptable usecase for force overriding styles:</li>
+        <pre><code>
+td {
+  vertical-align: top !important;
+}
+
+#bodyContentTD nobr > a {
+font-weight: 900;
+font-size: 1em !important;
+line-height: 1em;
+padding: 0px 0px 5px 0px;
+}
+   
+a[href*="AutSelfAdvocacy." i] {
+font-size: 1.3em !important;
+border-bottom: none !important;
+}
+
+.jcarousel-skin-pdp .jcarousel-clip-horizontal {
+    width: 440px;
+    height: 175px !important;
+}
+
+.jcarousel-skin-pdp .jcarousel-item {
+    width: 125px;
+    height: 150px !important;
+}
+
+#cropDialog, #miscNotes {
+    display: none !important;
+}</code></pre></ul>
         <h2>11.12.18</h2>
         <ul>
             <li>Learned how cool
